@@ -1,6 +1,19 @@
 # Crisis Communication Framework
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+
 A practical, field-tested framework for managing organizational crises across media and social channels. Based on real-world implementation in highly regulated environments and aligned with UK Government Crisis Communications Operating Model principles.
+
+## 🚀 Quick Start
+
+### Installation
+```bash
+pip install -r requirements.txt
+```
+
+### Basic Usage
+See the [tools directory](tools/) for Python scripts that automate crisis reporting.
 
 ## 🎯 Purpose
 
@@ -386,4 +399,4 @@ Crisis Communication & Reputational Risk Management Specialist
 
 ## 🇪🇸 Versión en Español
 
-Una versión completa en español de este framework está disponible en [/docs/README_ES.md](/docs/README_ES.md)
+Una versión completa en español de este framework está disponible bajo petición a la autora.
