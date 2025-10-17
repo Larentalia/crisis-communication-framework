@@ -1,0 +1,23 @@
+Date,Platform,Category,Sentiment,Comment_ID
+2024-01-15,Twitter,Service Question,Negative,tw_001
+2024-01-15,Twitter,Complaint,Negative,tw_002
+2024-01-15,Facebook,Service Question,Neutral,fb_001
+2024-01-15,Instagram,Complaint,Negative,ig_001
+2024-01-15,Twitter,Support Request,Neutral,tw_003
+2024-01-15,LinkedIn,General Inquiry,Neutral,li_001
+2024-01-16,Twitter,Complaint,Negative,tw_004
+2024-01-16,Twitter,Service Question,Negative,tw_005
+2024-01-16,Facebook,Support Request,Neutral,fb_002
+2024-01-16,Instagram,Complaint,Negative,ig_002
+2024-01-16,Twitter,Appreciation,Positive,tw_006
+2024-01-16,Facebook,Service Question,Neutral,fb_003
+2024-01-16,Twitter,Complaint,Negative,tw_007
+2024-01-16,LinkedIn,General Inquiry,Neutral,li_002
+2024-01-17,Twitter,Support Request,Neutral,tw_008
+2024-01-17,Twitter,Appreciation,Positive,tw_009
+2024-01-17,Facebook,General Inquiry,Neutral,fb_004
+2024-01-17,Instagram,Service Question,Neutral,ig_003
+2024-01-17,Twitter,Appreciation,Positive,tw_010
+2024-01-18,Twitter,General Inquiry,Neutral,tw_011
+2024-01-18,Facebook,Appreciation,Positive,fb_005
+2024-01-18,LinkedIn,Appreciation,Positive,li_003

@@ -1,0 +1,13 @@
+Date,Source,Platform,URL,Sentiment,Category
+2024-01-15,BBC News,Twitter,https://twitter.com/bbcnews/status/123,Negative,Service Impact
+2024-01-15,The Guardian,Web,https://theguardian.com/article/123,Neutral,Company Response
+2024-01-15,Daily Mail,Web,https://dailymail.co.uk/news/123,Negative,Customer Complaints
+2024-01-15,TechCrunch,Twitter,https://twitter.com/techcrunch/status/456,Neutral,Technical Details
+2024-01-16,Financial Times,Web,https://ft.com/content/789,Negative,Financial Impact
+2024-01-16,Sky News,YouTube,https://youtube.com/watch?v=abc,Neutral,Incident Coverage
+2024-01-16,Reuters,Twitter,https://twitter.com/reuters/status/789,Neutral,Official Statement
+2024-01-16,BBC News,Web,https://bbc.co.uk/news/123,Negative,Customer Impact
+2024-01-17,Bloomberg,Web,https://bloomberg.com/news/123,Neutral,Recovery Progress
+2024-01-17,The Times,Web,https://thetimes.co.uk/article/456,Positive,Resolution
+2024-01-17,Independent,Twitter,https://twitter.com/independent/status/321,Neutral,Update
+2024-01-18,Guardian Tech,Web,https://theguardian.com/technology/789,Positive,Lessons Learned
