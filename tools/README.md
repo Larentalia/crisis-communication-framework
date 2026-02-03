@@ -135,6 +135,9 @@ print(report.generate_quick_summary())
 ![Sentiment Analysis Example](../examples/sample_data/output/sentiment_analysis_report.png)
 
 ### Full Crisis Report (PDF)
+[📄 Download Example Crisis Report](../examples/sample_data/output/crisis_report.pdf)
+
+**Report Contents:**
 - Page 1: Cover with key metrics
 - Page 2: Executive summary with risk assessment
 - Page 3: Detailed media analysis

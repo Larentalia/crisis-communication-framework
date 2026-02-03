@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
 Generate Example Reports for Crisis Communication Framework
-This script reads the sample data and generates the example report PNGs
+This script reads the sample data and generates example reports
 that are referenced in the README.
 
 Usage:
-    python generate_examples.py
+    python generate_examples_complete.py
 
 The script will create:
     - media_coverage_report.png
     - sentiment_analysis_report.png
+    - crisis_report.pdf
 
 in the examples/sample_data/output/ directory.
 """
@@ -24,6 +25,7 @@ sys.path.insert(0, str(tools_dir))
 
 from media_tracker import MediaTracker
 from sentiment_analyzer import SentimentAnalyzer
+from crisis_report_generator import CrisisReportGenerator
 
 
 def main():
@@ -70,10 +72,23 @@ def main():
         analyzer.export_report(str(sentiment_output))
         print(f"   ✓ Created: {sentiment_output}")
         
+        # Generate Crisis Report PDF
+        print("\n3. Generating Crisis Report PDF...")
+        crisis_report = CrisisReportGenerator(
+            media_file=str(media_file),
+            comments_file=str(comments_file),
+            crisis_name='Data Security Incident',
+            crisis_date='2024-01-15'
+        )
+        pdf_output = output_dir / "crisis_report.pdf"
+        crisis_report.generate_pdf_report(str(pdf_output))
+        print(f"   ✓ Created: {pdf_output}")
+        
         print("\n✓ Successfully generated all example reports!")
-        print(f"\nThe reports are now ready and will display in the README:")
+        print(f"\nThe reports are now ready:")
         print(f"  - {media_output.relative_to(base_dir)}")
         print(f"  - {sentiment_output.relative_to(base_dir)}")
+        print(f"  - {pdf_output.relative_to(base_dir)}")
         
         return True
         
