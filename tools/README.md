@@ -129,10 +129,10 @@ print(report.generate_quick_summary())
 ## 📊 Report Examples
 
 ### Media Coverage Report
-![Media Coverage Example](../examples/output/media_coverage_report.png)
+![Media Coverage Example](../examples/sample_data/output/media_coverage_report.png)
 
 ### Sentiment Analysis Report
-![Sentiment Analysis Example](../examples/output/sentiment_analysis_report.png)
+![Sentiment Analysis Example](../examples/sample_data/output/sentiment_analysis_report.png)
 
 ### Full Crisis Report (PDF)
 - Page 1: Cover with key metrics
