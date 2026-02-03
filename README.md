@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 
-A practical, field-tested framework for managing organizational crises across media and social channels. Based on real-world implementation in highly regulated environments and aligned with UK Government Crisis Communications Operating Model principles.
+A practical, field-tested framework for managing organisational crises across media and social channels. Based on real-world implementation in highly regulated environments and aligned with the UK Government Crisis Communications Operating Model principles.
 
 ## 🚀 Quick Start
 
@@ -25,7 +25,7 @@ This framework provides:
 - **Stakeholder coordination guidelines**
 - **Post-crisis analysis methodology**
 
-Designed for communications professionals, crisis managers, and organizations seeking to build robust crisis preparedness capabilities.
+Designed for communications professionals, crisis managers, and organisations seeking to build robust crisis preparedness capabilities.
 
 ---
 
@@ -34,7 +34,7 @@ Designed for communications professionals, crisis managers, and organizations se
 Based on the [UK Government Crisis Communications Operating Model](https://www.communications.gov.uk/wp-content/uploads/2023/05/Crisis-Communications-Operating-Model.pdf), crises are classified into three levels:
 
 ### Level 1: Significant Emergency
-- **Impact:** Localized incident affecting specific departments or regions
+- **Impact:** Localised incident affecting specific departments or regions
 - **Response time:** < 2 hours
 - **Coordination:** Departmental level
 - **Examples:** Local service disruption, minor data breach, isolated severe weather impact
@@ -48,7 +48,7 @@ Based on the [UK Government Crisis Communications Operating Model](https://www.c
 ### Level 3: Catastrophic Emergency
 - **Impact:** Organization-wide or national-level crisis
 - **Response time:** < 30 minutes
-- **Coordination:** Executive-led crisis team with full organizational mobilization
+- **Coordination:** Executive-led crisis team with full organisational mobilisation
 - **Examples:** Global pandemic, major leadership crisis, catastrophic system failure
 
 ---
@@ -93,7 +93,7 @@ Based on the [UK Government Crisis Communications Operating Model](https://www.c
 2. Align messaging with public health authorities
 3. Communicate safety measures to employees
 4. Update customers on service impacts
-5. Monitor for misinformation about organizational response
+5. Monitor for misinformation about organisational response
 
 **Communication approach:**
 - Empathy and care-first messaging
@@ -165,11 +165,11 @@ Based on the [UK Government Crisis Communications Operating Model](https://www.c
 1. Acknowledge the issue immediately
 2. Provide known information
 3. Set expectations for updates
-4. Coordinate with operations team
+4. Coordinate with the operations team
 5. Monitor customer sentiment
 
 **Communication approach:**
-- Acknowledge, apologize, act
+- Acknowledge, apologise, act
 - Transparency about timeline
 - Regular updates (even if "no new information")
 - Clear restoration milestones
@@ -193,7 +193,7 @@ Based on the [UK Government Crisis Communications Operating Model](https://www.c
 2. Assess what can/cannot be communicated legally
 3. Prepare internal communication first (employees before external)
 4. Brief board/senior leadership
-5. Designate authorized spokesperson
+5. Designate authorised spokesperson
 6. Monitor for speculation and misinformation
 
 **Communication approach:**
@@ -202,7 +202,7 @@ Based on the [UK Government Crisis Communications Operating Model](https://www.c
 - Tiered communication (internal → investors → public)
 - Limited, factual information only
 - "We cannot comment on ongoing investigations" when appropriate
-- Demonstrate organizational stability and continuity
+- Demonstrate organisational stability and continuity
 
 **Special considerations:**
 - **Death/bereavement:** Compassion first, operational continuity second
@@ -274,7 +274,7 @@ Based on the [UK Government Crisis Communications Operating Model](https://www.c
 
 ### Holding Statement Template
 ```
-We are aware of [incident description]. The safety and wellbeing of [affected parties] 
+We are aware of [incident description]. The safety and well-being of [affected parties] 
 is our top priority. We are currently [actions being taken] and will provide updates 
 as more information becomes available. For immediate concerns, please contact 
 [appropriate channel].
@@ -290,7 +290,7 @@ and understanding.
 ### Resolution Statement Template
 ```
 Following [incident], we can confirm that [resolution]. We have [corrective actions] 
-to prevent recurrence. We apologize for [impact] and thank [stakeholders] for 
+to prevent recurrence. We apologise for [impact] and thank [stakeholders] for 
 [response/support]. For questions, please contact [channel].
 ```
 
@@ -383,7 +383,7 @@ This framework is based on real-world crisis management experience. Contribution
 
 ## 📄 License
 
-MIT License - Free to use and adapt for your organization's needs.
+MIT License - Free to use and adapt for your organisation's needs.
 
 ---
 
