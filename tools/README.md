@@ -1,6 +1,6 @@
 # Crisis Communication Tools
 
-Python scripts for analyzing media coverage and social media sentiment during crisis situations. These tools were developed based on real-world crisis management experience and are designed for rapid deployment during active incidents.
+Python scripts for analysing media coverage and social media sentiment during crises. These tools were developed based on real-world crisis management experience and are designed for rapid deployment during active incidents.
 
 ## 🚀 Quick Start
 
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ### 1. Media Coverage Tracker (`media_tracker.py`)
 
-Analyzes media mentions across platforms and generates visual reports.
+Analyses media mentions across platforms and generates visual reports.
 
 **Features:**
 - Daily coverage trends
@@ -40,9 +40,9 @@ tracker.export_report('media_report.png')
 
 ---
 
-### 2. Sentiment Analyzer (`sentiment_analyzer.py`)
+### 2. Sentiment Analyser (`sentiment_analyzer.py`)
 
-Analyzes social media comments by category and sentiment.
+Analyses social media comments by category and sentiment.
 
 **Features:**
 - Daily volume tracking with sentiment breakdown
@@ -94,7 +94,7 @@ report = CrisisReportGenerator(
 # Generate full PDF
 report.generate_pdf_report('crisis_report.pdf')
 
-# Get quick summary for email
+# Get a quick summary for email
 print(report.generate_quick_summary())
 ```
 
@@ -110,7 +110,7 @@ print(report.generate_quick_summary())
 3. Run reports as needed (typically daily for morning briefings)
 
 **Required fields for media coverage:**
-- `Date`: Publication date (YYYY-MM-DD)
+- `Date`: Publication date (DD-MM-YYYY)
 - `Source`: Media outlet name
 - `Platform`: Web, Twitter, Facebook, etc.
 - `URL`: Link to article/post
@@ -118,7 +118,7 @@ print(report.generate_quick_summary())
 - `Category`: Custom categories for your situation
 
 **Required fields for comments:**
-- `Date`: Comment date (YYYY-MM-DD)
+- `Date`: Comment date (DD-MM-YYYY)
 - `Platform`: Social platform
 - `Category`: Comment type (Complaint, Question, etc.)
 - `Sentiment`: Positive, Neutral, or Negative
@@ -147,7 +147,7 @@ print(report.generate_quick_summary())
 ### During Active Crisis
 - **Morning briefings:** Generate overnight report for 9am leadership meeting
 - **Hourly monitoring:** Track sentiment shifts in real-time
-- **Spike detection:** Get alerts when comment volume exceeds normal baseline
+- **Spike detection:** Get alerts when comment volume exceeds the normal baseline
 
 ### Post-Crisis Analysis
 - **Timeline reconstruction:** Understand how narrative evolved
@@ -158,7 +158,7 @@ print(report.generate_quick_summary())
 
 ## ⚙️ Configuration
 
-### Customization Options
+### Customisation Options
 
 **Sentiment categories:** Modify to match your classification
 ```python
@@ -179,7 +179,7 @@ spikes = analyzer.identify_spikes(threshold_multiplier=2.0)
 spikes = analyzer.identify_spikes(threshold_multiplier=1.5)
 ```
 
-**Report styling:** Modify colors, fonts, layout in each script
+**Report styling:** Modify colours, fonts,and  layout in each script
 
 ---
 
@@ -197,24 +197,24 @@ spikes = analyzer.identify_spikes(threshold_multiplier=1.5)
 
 **Missing sentiment values:**
 - All records must have Positive, Neutral, or Negative sentiment
-- Check for typos in sentiment column
+- Check for typos in the sentiment column
 
 **Empty plots:**
-- Verify data file has content
-- Check date range is correct
+- Verify the data file has content
+- Check the date range is correct
 
 ---
 
 ## 📈 Best Practices
 
 ### Data Collection
-- **Consistency:** Use same categories throughout crisis
+- **Consistency:** Use the same categories throughout the crisis
 - **Timeliness:** Update data at regular intervals
 - **Completeness:** Don't skip sentiment classification
 - **Verification:** Double-check URLs and sources
 
 ### Reporting
-- **Daily cadence:** Generate reports at same time each day
+- **Daily cadence:** Generate reports at the same time each day
 - **Clear naming:** Use date in filename (e.g., `report_2024-01-15.pdf`)
 - **Archive:** Keep all reports for post-crisis analysis
 - **Distribution:** Define who receives reports and when
@@ -224,7 +224,7 @@ spikes = analyzer.identify_spikes(threshold_multiplier=1.5)
 ## 🤝 Contributing
 
 Improvements and additional features welcome! Common requests:
-- Additional visualization types
+- Additional visualisation types
 - Integration with monitoring APIs
 - Real-time dashboards
 - Multi-language support
@@ -233,7 +233,7 @@ Improvements and additional features welcome! Common requests:
 
 ## 📄 License
 
-MIT License - Free to use and adapt for your organization.
+MIT License - Free to use and adapt for your organisation.
 
 ---
 
