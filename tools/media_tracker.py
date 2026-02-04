@@ -31,7 +31,8 @@ class MediaTracker:
     
     def _preprocess(self):
         """Preprocess data: convert dates, clean text."""
-        self.data['Date'] = pd.to_datetime(self.data['Date'])
+        # Handle both formats: "DD Month YYYY" and "YYYY-MM-DD"
+        self.data['Date'] = pd.to_datetime(self.data['Date'], format='mixed')
         self.data = self.data.sort_values('Date')
         
     def get_daily_summary(self):
@@ -108,7 +109,7 @@ class MediaTracker:
     def generate_summary_stats(self):
         """Generate summary statistics."""
         total_mentions = len(self.data)
-        date_range = f"{self.data['Date'].min().strftime('%Y-%m-%d')} to {self.data['Date'].max().strftime('%Y-%m-%d')}"
+        date_range = f"{self.data['Date'].min().strftime('%d %B %Y')} to {self.data['Date'].max().strftime('%d %B %Y')}"
         platforms = self.data['Platform'].nunique()
         sources = self.data['Source'].nunique()
         
@@ -166,18 +167,3 @@ class MediaTracker:
         print(f"Report saved to {output_path}")
         
         return fig
-
-
-# Example usage
-if __name__ == "__main__":
-    # Example: Load data and generate report
-    tracker = MediaTracker('templates/media_coverage_template.csv')
-    
-    # Print summary
-    print("=== Media Coverage Summary ===")
-    summary = tracker.generate_summary_stats()
-    for key, value in summary.items():
-        print(f"{key}: {value}")
-    
-    # Generate visual report
-    tracker.export_report('media_coverage_report.png')

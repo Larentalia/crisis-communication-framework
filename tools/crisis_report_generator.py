@@ -31,8 +31,8 @@ class CrisisReportGenerator:
             crisis_date: Date of crisis onset (defaults to today)
         """
         self.crisis_name = crisis_name
-        self.crisis_date = crisis_date or datetime.now().strftime('%Y-%m-%d')
-        self.report_date = datetime.now().strftime('%B %d, %Y')
+        self.crisis_date = crisis_date or datetime.now().strftime('%d %B %Y')
+        self.report_date = datetime.now().strftime('%d %B %Y')
         
         # Load and preprocess data
         self.media_data = self._load_and_prep_media(media_file)
@@ -44,14 +44,16 @@ class CrisisReportGenerator:
     def _load_and_prep_media(self, file_path):
         """Load and preprocess media data."""
         data = pd.read_csv(file_path) if file_path.endswith('.csv') else pd.read_excel(file_path)
-        data['Date'] = pd.to_datetime(data['Date'])
+        # Handle both formats: "DD Month YYYY" and "YYYY-MM-DD"
+        data['Date'] = pd.to_datetime(data['Date'], format='mixed')
         data = data.sort_values('Date')
         return data
     
     def _load_and_prep_comments(self, file_path):
         """Load and preprocess comments data."""
         data = pd.read_csv(file_path) if file_path.endswith('.csv') else pd.read_excel(file_path)
-        data['Date'] = pd.to_datetime(data['Date'])
+        # Handle both formats: "DD Month YYYY" and "YYYY-MM-DD"
+        data['Date'] = pd.to_datetime(data['Date'], format='mixed')
         data = data.sort_values('Date')
         return data
     

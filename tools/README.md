@@ -110,7 +110,7 @@ print(report.generate_quick_summary())
 3. Run reports as needed (typically daily for morning briefings)
 
 **Required fields for media coverage:**
-- `Date`: Publication date (DD-MM-YYYY)
+- `Date`: Publication date (format: DD Month YYYY, e.g., 15 January 2024)
 - `Source`: Media outlet name
 - `Platform`: Web, Twitter, Facebook, etc.
 - `URL`: Link to article/post
@@ -118,7 +118,7 @@ print(report.generate_quick_summary())
 - `Category`: Custom categories for your situation
 
 **Required fields for comments:**
-- `Date`: Comment date (DD-MM-YYYY)
+- `Date`: Comment date (format: DD Month YYYY, e.g., 15 January 2024)
 - `Platform`: Social platform
 - `Category`: Comment type (Complaint, Question, etc.)
 - `Sentiment`: Positive, Neutral, or Negative
@@ -195,8 +195,9 @@ spikes = analyzer.identify_spikes(threshold_multiplier=1.5)
 - Use absolute paths if relative paths don't work
 
 **Dates not parsing:**
-- Ensure date format is YYYY-MM-DD
+- Ensure date format is DD Month YYYY (e.g., 15 January 2024)
 - Check for empty date cells
+- The tools accept both DD Month YYYY and YYYY-MM-DD formats
 
 **Missing sentiment values:**
 - All records must have Positive, Neutral, or Negative sentiment

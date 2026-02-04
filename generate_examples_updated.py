@@ -78,7 +78,7 @@ def main():
             media_file=str(media_file),
             comments_file=str(comments_file),
             crisis_name='Data Security Incident',
-            crisis_date='2024-01-15'
+            crisis_date='15 January 2024'
         )
         pdf_output = output_dir / "crisis_report.pdf"
         crisis_report.generate_pdf_report(str(pdf_output))
