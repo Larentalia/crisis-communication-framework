@@ -64,7 +64,7 @@ class CrisisReportGenerator:
         self.media_sentiment = self.media_data['Sentiment'].value_counts()
         self.media_sources = self.media_data['Source'].nunique()
         self.media_platforms = self.media_data['Platform'].nunique()
-        self.media_date_range = f"{self.media_data['Date'].min().strftime('%Y-%m-%d')} to {self.media_data['Date'].max().strftime('%Y-%m-%d')}"
+        self.media_date_range = f"{self.media_data['Date'].min().strftime('%d %B %Y')} to {self.media_data['Date'].max().strftime('%d %B %Y')}"
         
         # Comments metrics
         self.total_comments = len(self.comments_data)
