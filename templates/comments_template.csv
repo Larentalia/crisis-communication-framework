@@ -1,23 +1,23 @@
 Date,Platform,Category,Sentiment,Comment_ID
-15 January 2024,Twitter,Service Question,Negative,tw_001
-15 January 2024,Twitter,Complaint,Negative,tw_002
-15 January 2024,Facebook,Service Question,Neutral,fb_001
-15 January 2024,Instagram,Complaint,Negative,ig_001
-15 January 2024,Twitter,Support Request,Neutral,tw_003
-15 January 2024,LinkedIn,General Inquiry,Neutral,li_001
-16 January 2024,Twitter,Complaint,Negative,tw_004
-16 January 2024,Twitter,Service Question,Negative,tw_005
-16 January 2024,Facebook,Support Request,Neutral,fb_002
-16 January 2024,Instagram,Complaint,Negative,ig_002
-16 January 2024,Twitter,Appreciation,Positive,tw_006
-16 January 2024,Facebook,Service Question,Neutral,fb_003
-16 January 2024,Twitter,Complaint,Negative,tw_007
-16 January 2024,LinkedIn,General Inquiry,Neutral,li_002
-17 January 2024,Twitter,Support Request,Neutral,tw_008
-17 January 2024,Twitter,Appreciation,Positive,tw_009
-17 January 2024,Facebook,General Inquiry,Neutral,fb_004
-17 January 2024,Instagram,Service Question,Neutral,ig_003
-17 January 2024,Twitter,Appreciation,Positive,tw_010
-18 January 2024,Twitter,General Inquiry,Neutral,tw_011
-18 January 2024,Facebook,Appreciation,Positive,fb_005
-18 January 2024,LinkedIn,Appreciation,Positive,li_003
+15 January 2026,Instagram,Service Question,Negative,tw_001
+15 January 2026,TikTok,Complaint,Negative,tw_002
+15 January 2026,Facebook,Service Question,Neutral,fb_001
+15 January 2026,Instagram,Complaint,Negative,ig_001
+15 January 2026,TikTok,Support Request,Neutral,tw_003
+15 January 2026,LinkedIn,General Inquiry,Neutral,li_001
+16 January 2026,TikTok,Complaint,Negative,tw_004
+16 January 2026,TikTok,Service Question,Negative,tw_005
+16 January 2026,Facebook,Support Request,Neutral,fb_002
+16 January 2026,Instagram,Complaint,Negative,ig_002
+16 January 2026,TikTok,Appreciation,Positive,tw_006
+16 January 2026,Facebook,Service Question,Neutral,fb_003
+16 January 2026,TikTok,Complaint,Negative,tw_007
+16 January 2026,LinkedIn,General Inquiry,Neutral,li_002
+17 January 2026,TikTok,Support Request,Neutral,tw_008
+17 January 2026,TikTok,Appreciation,Positive,tw_009
+17 January 2026,Facebook,General Inquiry,Neutral,fb_004
+17 January 2026,Instagram,Service Question,Neutral,ig_003
+17 January 2026,TikTok,Appreciation,Positive,tw_010
+18 January 2026,TikTok,General Inquiry,Neutral,tw_011
+18 January 2026,Facebook,Appreciation,Positive,fb_005
+18 January 2026,LinkedIn,Appreciation,Positive,li_003
